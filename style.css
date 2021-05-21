@@ -354,7 +354,7 @@ img {
 }
 @media (min-width: 500px) {
   .container {
-    max-width: 540px;
+    max-width: 720px;
   }
   .navbar-expand-lg {
     flex-flow: row wrap;
@@ -386,7 +386,6 @@ img {
   }
   #mainNav .nav-link {
     transition: none;
-    padding: 2rem 1.5rem;
     color: rgba(255, 255, 255, 0.5);
   }
   #mainNav .nav-link:hover {
