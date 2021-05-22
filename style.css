@@ -19,6 +19,11 @@ body {
   color: #212529;
   text-align: left;
   background-color: gray;
+  background: url("img/fondo2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   letter-spacing: 0.0625em;
 }
 hr {
@@ -357,6 +362,9 @@ img {
   flex-wrap: wrap;
   flex: 1 0 0%;
 }
+/*.projects .featured-text{
+  background: url("img/fondo.jpg")
+}*/
 @media (min-width: 500px) { 
   .container {
     max-width: 720px;
@@ -432,6 +440,10 @@ img {
   }
   .d-md-block {
     display: block !important;
+  }
+  .projects .featured-text {
+    padding: 0.2rem 0.2rem 0.2rem 0.2rem;
+    border: 0.5rem solid #64a19d;
   }
 }
 @media (min-width: 992px) {
@@ -520,7 +532,7 @@ img {
   }  
   .projects .featured-text {
     padding: 0.2rem 0.2rem 0.2rem 0.2rem;
-    border-left: 0.5rem solid #64a19d;
+    border: 0.5rem solid #64a19d;
   }
   .projects .project-text {
     padding: 5rem;
